@@ -1,0 +1,114 @@
+body{
+  font-family: Leelawadee,"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+@font-face{
+  font-family: Arvo Bold;
+  src:local('../Arvo/Arvo-Bold'),url('../Arvo/Arvo-Bold.ttf') format('truetype');
+}
+@font-face{
+  font-family: Arvo Bold;
+  src:local('../Arvo/Arvo-Bold'),url('../Arvo/Arvo-Bold.ttf') format('truetype');
+}
+.header_shadow{
+  -webkit-box-shadow: 1px 1px 0.5px 0.5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 0.5px 0.5px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.5);    
+}
+.div_show{
+ -webkit-box-shadow: 1px 1px 0.5px 0.5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 1px 1px 0.5px 0.5px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.1);  
+}
+.show_about{
+  -webkit-box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.9);
+  -moz-box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.9);
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.9);  
+}
+.header{
+  /*background-color:rgba(0, 0, 0, 0.2);*/
+}
+#header{
+
+}
+#header ul li a{  
+  font-family:"Roboto Slab",Leelawadee,"Helvetica Neue", "Helvetica", 
+  Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bolder;
+
+}
+#header ul li a:hover,
+#header ul li a.active{
+font-family:"Roboto Slab",Leelawadee,"Helvetica Neue", "Helvetica", 
+Helvetica, Arial, sans-serif;
+
+}
+h2{
+  font-size:35px;  
+  font-family:"Roboto Slab";
+  color:green;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+h3{
+  font-size:25px;  
+  font-family:"Roboto Slab";
+  color:#000;
+  text-transform: capitalize;
+}
+h4{
+  font-size:25px;
+  color:#fff;
+  text-transform: uppercase;
+}
+h6{
+  font-size:20px;
+  font-family:"Roboto Slab";
+  color:#fff;
+  text-transform: capitalize;
+}
+p{  
+  color:#1E3E38;
+  font-size: 18px;
+  text-align:justify;
+  font-family:Arvo Bold;
+}
+ul li {
+  color:#666;
+  font-size: 18px;
+  text-align:justify;
+  font-family:Arvo Bold; 
+}
+span{
+  color:#666;
+  font-size: 16px;
+  text-align:justify;
+  font-family:Arvo Bold;
+}
+input[type=text] {
+   
+    color: #fff;
+}
+input[type=email] {
+   
+    color: #fff;
+}
+textarea{
+    color: #fff;
+}
+.volunteer{
+  background-color: blue;
+  padding-top:20px;
+}
+hr{
+  color:#fff;
+  padding:0;
+  margin:40px 0px;
+}
+.footer{
+  padding-top:20px;
+}
+.copyright{
+  background-color: #666;
+}
